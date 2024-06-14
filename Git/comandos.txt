@@ -1,0 +1,5 @@
+Comandos que vimos 
+git addgit commit 
+git log
+
+git branchsgit checkout

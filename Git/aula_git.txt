@@ -1,1 +1,15 @@
-Aula de git e GitHUb
+Comandos git vistos até agora 
+
+git init (inicializa um repositorio local)
+git config --global user.name (configura de forma global o nome de usuario)
+git config --global user.email (configura de forma global o email)
+git add . (adicionar as alterações no repositorio)
+git commit -m " mensagem aqui" (adiciona mensagem ao commit(historico de alterações))
+git status (verufuca o status do repositorio)
+git log (verifica o log de commits)
+
+Adicionando novos comandos
+
+git branch (mostra as branchs com -d apaga a branch especificada e informando um nome ele cria uma branch)
+git checkout (troca de branch e com -b cria e troca de branch)
+git switch(troca de branch -c cria e troca para branch crianda)
