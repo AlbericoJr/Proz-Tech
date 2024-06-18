@@ -7,6 +7,8 @@ git add . (adicionar as alterações no repositorio)
 git commit -m " mensagem aqui" (adiciona mensagem ao commit(historico de alterações))
 git status (verufuca o status do repositorio)
 git log (verifica o log de commits)
+git push -u origin main(utilizado no primeiro push)
+git push(utilizado nos demais push)
 
 Adicionando novos comandos
 
