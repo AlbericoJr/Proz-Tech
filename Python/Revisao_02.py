@@ -61,3 +61,5 @@ while True:
     break
   else:
     print("Escolha inválida, por favor tente novamente.")
+
+    
