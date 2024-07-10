@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula de formulários</title>
+</head>
+<body>
+  <main>
+    <h1>Formulários</h1>
+    <section>
+      <form action="#">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" placeholder="Seu nome">
+        </div>
+        <br>
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="9qEoA@example.com">
+        </div>
+        <br>
+        <div>
+          <label for="password">Senha</label>
+          <input type="password" name="password" id="password" placeholder="********"></label>
+        </div>
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+        <div>
+          <label for="estado">Escolha um Estado</label>
+          <select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="PE">Pernambuco</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceara</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espirito Santo</option>
+          </select>
+        </div>
+        <div>
+          <label for="sex">M</label>
+          <input type="radio" name="sex" id="sex">
+          <label for="sex">F</label>
+          <input type="radio" name="sex" id="sex">
+        </div>
+        <br>
+        <div>
+          <label for="colo">Cor:</label>
+          <input type="color" name="colo" id="colo" value="#ff0000">
+        </div>
+        <br>
+        <div>
+          <label for="data">Data:</label>
+          <input type="date" name="data" id="data">
+        </div>
+        <br>
+        <div>
+          <label for="time">Tempo:</label>
+          <input type="time" name="time" id="time">
+        </div>
+        <br>
+        <div>
+          <label for="url">URL:</label>
+          <input type="url" name="url" id="url" placeholder="http://www.google.com.br">
+        </div>
+        <br>
+        <div>
+          <label for="file">Arquivo:</label>
+          <input type="file" name="file" id="file">
+        </div>
+        <br>
+        <div>
+          <label for="num">Telefone</label>
+          <input type="number" name="num" id="num" placeholder="(00) 00000-0000">
+        </div>
+        <br>
+        <div>
+          <label for="range">Range</label>
+          <input type="range" name="range" id="range" min="0" max="100" value="10">
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
